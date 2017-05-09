@@ -1,4 +1,4 @@
 */prime
 *.pyc
 .gitignore~
-.idea
+/.idea
