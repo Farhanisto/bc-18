@@ -6,6 +6,6 @@ request = Request('http://placekitten.com/')
 try:
 	response = urlopen(request)
 	value = response.read()
-	print value[0:3]
+	print value[0:]
 except URLError, e:
     print 'no cats', e
